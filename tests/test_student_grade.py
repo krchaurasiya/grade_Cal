@@ -1,6 +1,8 @@
 # test_student_grade.py
 
-from student_grade_calculator import get_grade
+from src.student_grade_calculator import calculate_grade
+from tests.student_grade import get_grade
+
 
 def test_grade_A_plus():
     avg, grade = get_grade([95, 92, 90, 93, 94])
