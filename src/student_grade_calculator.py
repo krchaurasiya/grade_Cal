@@ -27,4 +27,5 @@ def calculate_grade():
 
 
 # Function call
-calculate_grade()
+if __name__ == "__main__":
+    calculate_grade()
